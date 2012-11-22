@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button android:id="@+id/SimpleListViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple ListView"
+        android:layout_margin="20dp"/>
+
+    <Button android:id="@+id/CustomListViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Row ListView"
+        android:layout_below="@id/SimpleListViewButton"
+        android:layout_margin="20dp"/>
+    
+    <Button android:id="@+id/ListViewCheckboxButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView with Checkbox"
+        android:layout_below="@id/CustomListViewButton"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
